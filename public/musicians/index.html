@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>뮤지션 목록</title>
+  </head>
+  <body>
+    <nav class="navbar p-4 bg-neutral flex gap-4">
+      <a href="/" aria-label="홈으로 이동">
+        <img class="h-10" src="/images/logo.webp" alt="인디스트릿 로고" />
+      </a>
+      <a class="btn btn-ghost normal-case text-xl" href="/musicians/"
+        >뮤지션 목록</a
+      >
+      <a class="btn btn-ghost normal-case text-xl" href="/live/">공연 목록</a>
+    </nav>
+    <main>
+      <div class="min-h-screen container pt-4 mx-auto border-neutral-content">
+        <div class="card w-96 bg-info-content shadow-xl">
+          <figure>
+            <img src="/images/idiots.jpg" alt="이디어츠 프로필" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">이디어츠</h2>
+            <p>멍청이 펑크밴드 이디어츠!</p>
+            <div class="card-actions justify-end">
+              <a href="/musicians/idiots/" class="btn btn-primary"
+                >자세히 보기</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

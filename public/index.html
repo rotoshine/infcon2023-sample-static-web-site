@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>인디 뮤지션 사이트</title>
+  </head>
+  <body>
+    <nav class="navbar p-4 bg-neutral flex gap-4">
+      <a href="/" aria-label="홈으로 이동">
+        <img class="h-10" src="/images/logo.webp" alt="인디스트릿 로고" />
+      </a>
+      <a class="btn btn-ghost normal-case text-xl" href="/musicians/"
+        >뮤지션 목록</a
+      >
+      <a class="btn btn-ghost normal-case text-xl" href="/live/">공연 목록</a>
+    </nav>
+    <main>
+      <div class="hero min-h-screen bg-base-200">
+        <div class="hero-content text-center">
+          <div class="max-w-md">
+            <h1 class="text-4xl font-bold">안녕하세요! 인프콘2023</h1>
+            <p class="py-6">이것은 Static Web Site 예제입니다.</p>
+            <a href="/musicians/" class="btn btn-primary">시작</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

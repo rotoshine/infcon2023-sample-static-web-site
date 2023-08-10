@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Musician List</title>
+  </head>
+  <body>
+    <nav class="navbar p-4 bg-neutral flex gap-4">
+      <a href="/" aria-label="홈으로 이동">
+        <img class="h-10" src="/images/logo.webp" alt="인디스트릿 로고" />
+      </a>
+      <a class="btn btn-ghost normal-case text-xl" href="/musicians/"
+        >뮤지션 목록</a
+      >
+      <a class="btn btn-ghost normal-case text-xl" href="/live/">공연 목록</a>
+    </nav>
+    <main>
+      <div
+        class="h-80 bg-no-repeat bg-center bg-cover"
+        style="background-image: url(&quot;/images/idiots-bg.webp&quot;)"
+      ></div>
+      <div class="flex gap-12 px-16 -mt-16">
+        <img
+          class="rounded-full w-32 h-32"
+          src="/images/idiots.jpg"
+          alt="이디어츠 프로필"
+        />
+        <div class="flex-col">
+          <div class="text-4xl font-bold text-primary-content mt-6">
+            이디어츠
+          </div>
+          <div class="text-secondary-content">
+            👻 멍청이 펑크 밴드 이디어츠! 👻<br /><br />
+            음원사이트에서 이디어츠를 검색하면 🔍<br />
+            🐾[이디어츠 1st EP]와 [악당출현!], [언제나], [아주작은] 🐈 을<br />
+            들을 수 있어요 🌈🥺✨<br /><br />
+            마플샵에서 밴드 이디어츠를 검색하면 🔍<br />
+            다양한 굿즈를 구매하실 수 있어요⚡️<br /><br />
+            <a href="https://idiots.band">https://idiots.band</a>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center mt-16">
+        <a class="btn btn-primary" href="/musicians/">목록으로</a>
+      </div>
+    </main>
+  </body>
+</html>
